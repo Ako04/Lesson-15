@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/title"
+        android:title="Тіл ауыстыру">
+
+        <menu>
+            <item android:id="@+id/kaz_lang"
+                android:title="Қазақ тілі "/>
+
+            <item android:id="@+id/rus_lang"
+                android:title="Руский язык"/>
+
+            <item android:id="@+id/eng_lang"
+                android:title="English language"/>
+        </menu>
+
+    </item>
+
+</menu>

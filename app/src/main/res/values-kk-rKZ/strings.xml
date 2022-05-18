@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Tester</string>
+    <string name="email_engizu">Email енгізіңіз</string>
+    <string name="password_engizu">Құпия сөз енгізіңіз</string>
+    <string name="kiru">Кіру</string>
+    <string name="tirkelu">Тіркелу</string>
+    <string name="tolyk_toltyru">Толық толтырыңыз!</string>
+</resources>

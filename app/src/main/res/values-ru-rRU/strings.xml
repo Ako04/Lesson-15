@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Tester</string>
+    <string name="email_engizu">Введите Email</string>
+    <string name="password_engizu">Введите пароль</string>
+    <string name="kiru">Войти</string>
+    <string name="tirkelu">Регистрация</string>
+    <string name="tolyk_toltyru">Заполните полностью!</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Tester</string>
+    <string name="email_engizu">Enter Email</string>
+    <string name="password_engizu">Enter Password</string>
+    <string name="kiru">Login</string>
+    <string name="tirkelu">Registration</string>
+    <string name="tolyk_toltyru">Error or write all of them!</string>
+</resources>

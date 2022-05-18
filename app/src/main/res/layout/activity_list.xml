@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userBaba_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <TextView
+            android:id="@+id/user_baba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baba"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/userBaba_photo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_babaPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+77071481094"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/user_baba"
+            android:layout_toRightOf="@+id/userBaba_photo"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/userBaba_photo"
+            android:layout_below="@+id/user_babaPhone"
+            android:background="@color/zhasyl"
+            android:text="Call"/>
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_call"
+            android:layout_below="@+id/user_babaPhone"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9800"
+            android:text="SMS"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userAnne_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <TextView
+            android:id="@+id/user_anne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anne"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/userAnne_photo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_AnnePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+77777777777"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/user_anne"
+            android:layout_toRightOf="@+id/userAnne_photo"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_call2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/userAnne_photo"
+            android:layout_below="@+id/user_AnnePhone"
+            android:background="@color/zhasyl"
+            android:text="Call"/>
+
+        <Button
+            android:id="@+id/btn_sms2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_call2"
+            android:layout_below="@+id/user_AnnePhone"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9800"
+            android:text="SMS"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userBro_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <TextView
+            android:id="@+id/user_bro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bro"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/userBro_photo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_BroPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+77071481094"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/user_bro"
+            android:layout_toRightOf="@+id/userBro_photo"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_call3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/userBro_photo"
+            android:layout_below="@+id/user_BroPhone"
+            android:background="@color/zhasyl"
+            android:text="Call"/>
+
+        <Button
+            android:id="@+id/btn_sms3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_call3"
+            android:layout_below="@+id/user_BroPhone"
+            android:layout_marginLeft="10dp"
+            android:background="#FF9800"
+            android:text="SMS"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_below="@id/btn_sms3"/>
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_baseline_camera_24"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
