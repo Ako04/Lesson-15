@@ -1,4 +1,4 @@
-package com.example.quiztester;
+package com.example.quiztester.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -8,12 +8,12 @@ public class StoreDatabase extends SQLiteOpenHelper {
     static final String DATABASE_NAME = "quiz.db";
     static final int  DATABASE_VERSION = 1;
 
-    static final String TABLE_NAME = "users";
+    public static final String TABLE_NAME = "users";
 
-    static final String COLLUMN_NAME = "name";
-    static final String COLLUMN_AGE = "age";
-    static final String COLLUMN_EMAIL = "email";
-    static final String COLLUMN_PASSWORD = "password";
+    public static final String COLLUMN_NAME = "name";
+    public static final String COLLUMN_AGE = "age";
+    public static final String COLLUMN_EMAIL = "email";
+    public static final String COLLUMN_PASSWORD = "password";
 
 
     Context context;

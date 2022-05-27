@@ -3,12 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.Fragment1">
+    tools:context=".fragments.FragmentBaba">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userBaba_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <TextView
+            android:id="@+id/user_baba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baba"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/userBaba_photo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_babaPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+77071481094"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/user_baba"
+            android:layout_toRightOf="@+id/userBaba_photo"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/userBaba_photo"
+            android:layout_below="@+id/user_babaPhone"
+            android:background="@drawable/button"
+            android:text="Call"/>
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_call"
+            android:layout_below="@+id/user_babaPhone"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button"
+            android:text="SMS"/>
+
+    </RelativeLayout>
 
 </FrameLayout>

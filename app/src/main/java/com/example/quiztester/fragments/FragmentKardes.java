@@ -10,14 +10,14 @@ import androidx.fragment.app.Fragment;
 
 import com.example.quiztester.R;
 
-public class FragmentAnne extends Fragment {
+public class FragmentKardes extends Fragment {
     View view;
     TextView textView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_2, container, false);
+        view = inflater.inflate(R.layout.fragment_4, container, false);
 
         return view;
     }

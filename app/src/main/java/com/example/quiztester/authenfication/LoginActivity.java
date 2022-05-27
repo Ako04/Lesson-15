@@ -1,4 +1,9 @@
-package com.example.quiztester;
+package com.example.quiztester.authenfication;
+
+import static com.example.quiztester.database.StoreDatabase.COLLUMN_EMAIL;
+import static com.example.quiztester.database.StoreDatabase.COLLUMN_NAME;
+import static com.example.quiztester.database.StoreDatabase.COLLUMN_PASSWORD;
+import static com.example.quiztester.database.StoreDatabase.TABLE_NAME;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,12 +23,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import static com.example.quiztester.StoreDatabase.COLLUMN_EMAIL;
-import static com.example.quiztester.StoreDatabase.COLLUMN_NAME;
-import static com.example.quiztester.StoreDatabase.COLLUMN_PASSWORD;
-import static com.example.quiztester.StoreDatabase.TABLE_NAME;
+
+import com.example.quiztester.ui.MyCabinet;
+import com.example.quiztester.R;
+import com.example.quiztester.database.StoreDatabase;
 
 import java.util.Locale;
+
+
 
 public class LoginActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.quiztester;
+package com.example.quiztester.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.quiztester.R;
 import com.soundcloud.android.crop.Crop;
 
 import java.io.File;

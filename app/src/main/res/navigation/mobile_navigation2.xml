@@ -2,24 +2,24 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation2"
-    app:startDestination="@+id/nav_home">
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_baba">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.quiztester.navigation.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_baba"
+        android:name="com.example.quiztester.fragments.FragmentBaba"
+        android:label="@string/menu_baba"
+        tools:layout="@layout/fragment_1" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.quiztester.navigation.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_anne"
+        android:name="com.example.quiztester.fragments.FragmentAnne"
+        android:label="@string/menu_anne"
+        tools:layout="@layout/fragment_2" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.quiztester.navigation.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_bro"
+        android:name="com.example.quiztester.fragments.FragmentBro"
+        android:label="@string/menu_bro"
+        tools:layout="@layout/fragment_3" />
 </navigation>

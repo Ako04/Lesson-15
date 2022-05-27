@@ -1,4 +1,4 @@
-package com.example.quiztester.ui;
+package com.example.quiztester.navigation;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;

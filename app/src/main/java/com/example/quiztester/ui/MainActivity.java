@@ -1,4 +1,4 @@
-package com.example.quiztester;
+package com.example.quiztester.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
+
+import com.example.quiztester.R;
 
 public class MainActivity extends AppCompatActivity {
     TextView tv_surak1, tv_surak2, tv_surak3, tv_surak4;

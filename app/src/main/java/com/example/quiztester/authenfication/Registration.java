@@ -1,4 +1,4 @@
-package com.example.quiztester;
+package com.example.quiztester.authenfication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,10 +11,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import static com.example.quiztester.StoreDatabase.COLLUMN_EMAIL;
-import static com.example.quiztester.StoreDatabase.COLLUMN_NAME;
-import static com.example.quiztester.StoreDatabase.COLLUMN_PASSWORD;
-import static com.example.quiztester.StoreDatabase.TABLE_NAME;
+import static com.example.quiztester.database.StoreDatabase.COLLUMN_EMAIL;
+import static com.example.quiztester.database.StoreDatabase.COLLUMN_NAME;
+import static com.example.quiztester.database.StoreDatabase.COLLUMN_PASSWORD;
+import static com.example.quiztester.database.StoreDatabase.TABLE_NAME;
+
+import com.example.quiztester.R;
+import com.example.quiztester.database.StoreDatabase;
 
 public class Registration extends AppCompatActivity {
 

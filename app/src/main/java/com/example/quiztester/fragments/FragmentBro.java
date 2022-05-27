@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.quiztester.R;
 
-public class Fragment3 extends Fragment {
+public class FragmentBro extends Fragment {
     View view;
     TextView textView;
 

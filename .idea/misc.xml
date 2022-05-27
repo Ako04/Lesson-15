@@ -3,15 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/drawable/button.xml" value="0.1925" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1" />
-        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_list.xml" value="0.1" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/drawable/user.xml" value="0.1" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_list.xml" value="0.264" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_main.xml" value="0.22685185185185186" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_my_cabinet.xml" value="0.264" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_nav_draw.xml" value="0.264" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_navigation.xml" value="0.25" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/activity_splash_screen2.xml" value="0.1" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/content_nav_draw.xml" value="0.264" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/content_nav_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/fragment_1.xml" value="0.25" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/fragment_2.xml" value="0.25" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/fragment_3.xml" value="0.25" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/fragment_4.xml" value="0.25" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/layout/nav_header_nav_draw.xml" value="0.264" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/menu/main.xml" value="0.25" />
         <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/menu/menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/menu/nav_draw.xml" value="0.25" />
+        <entry key="..\:/Users/Akimzhan/AndroidStudioProjects/QuizTester/app/src/main/res/menu/nav_drawer.xml" value="0.25" />
       </map>
     </option>
   </component>

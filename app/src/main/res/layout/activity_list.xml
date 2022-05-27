@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ListActivity">
+    tools:context=".ui.ListActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/userBaba_photo"
             android:layout_below="@+id/user_babaPhone"
-            android:background="@color/zhasyl"
+            android:background="@drawable/button"
             android:text="Call"/>
 
         <Button
@@ -55,7 +55,7 @@
             android:layout_toRightOf="@id/btn_call"
             android:layout_below="@+id/user_babaPhone"
             android:layout_marginLeft="10dp"
-            android:background="#FF9800"
+            android:background="@drawable/button"
             android:text="SMS"/>
 
     </RelativeLayout>
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/userAnne_photo"
             android:layout_below="@+id/user_AnnePhone"
-            android:background="@color/zhasyl"
+            android:background="@drawable/button"
             android:text="Call"/>
 
         <Button
@@ -107,7 +107,7 @@
             android:layout_toRightOf="@id/btn_call2"
             android:layout_below="@+id/user_AnnePhone"
             android:layout_marginLeft="10dp"
-            android:background="#FF9800"
+            android:background="@drawable/button"
             android:text="SMS"/>
 
     </RelativeLayout>
@@ -149,7 +149,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/userBro_photo"
             android:layout_below="@+id/user_BroPhone"
-            android:background="@color/zhasyl"
+            android:background="@drawable/button"
             android:text="Call"/>
 
         <Button
@@ -159,7 +159,7 @@
             android:layout_toRightOf="@id/btn_call3"
             android:layout_below="@+id/user_BroPhone"
             android:layout_marginLeft="10dp"
-            android:background="#FF9800"
+            android:background="@drawable/button"
             android:text="SMS"/>
 
         <ImageView

@@ -1,4 +1,4 @@
-package com.example.quiztester;
+package com.example.quiztester.splashscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.example.quiztester.ui.ListActivity;
+import com.example.quiztester.R;
 
 public class SplashScreen extends AppCompatActivity {
     Animation rotateAnimation;
